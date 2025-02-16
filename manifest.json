@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "둣스크립트 바로가기",
+    "description": "둣스크립트 바로가기 확장 프로그램입니다",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "js": [
+          "index.js"
+        ],
+        "matches": [
+          "https://*.playentry.org/*"
+        ]
+      }
+    ]
+  }
