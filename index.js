@@ -1,7 +1,7 @@
 let onUrlChange = () => {
-    let title = document.querySelector("h3");
+    let title = document.querySelector("#__next > div.css-8d1p21.ex89w681 > div > div > div > div.css-1oodiyi.e13pveor1 > div.css-16ignzz.e1kv7pg34 > div.css-1kffifj.e1kv7pg33 > h3");
     
-    if (title && !document.querySelector("h3 div")) {
+    if (title && !document.querySelector("#__next > div.css-8d1p21.ex89w681 > div > div > div > div.css-1oodiyi.e13pveor1 > div.css-16ignzz.e1kv7pg34 > div.css-1kffifj.e1kv7pg33 > h3 > div")) {
         let id = window.location.href.split("/").pop();
         title.insertAdjacentHTML("beforeend", 
             `<div style="margin-left: 10px; display: inline; align-items: center; ">
